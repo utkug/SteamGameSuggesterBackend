@@ -24,8 +24,7 @@ Follow these steps to run the project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/utkug/steam-game-suggester-frontend.git
-cd steam-game-suggester-frontend
+git clone https://github.com/utkug/SteamGameSuggesterBackend.git
 ```
 ### 2. Install Dependencies
 ```bash
@@ -39,8 +38,6 @@ const STEAM_API_KEY=your_steam_api_key_here
 ```bash
 npx tsx src/app.ts
 ```
-> ⚠️ This app requires a running backend server at `http://localhost:3000` for data fetching.  
-> You can find the backend repository here: [Steam Game Suggester Backend]
 
 ## 📡 API Endpoints
 GET /getUserGamesWithHours/:steamId
